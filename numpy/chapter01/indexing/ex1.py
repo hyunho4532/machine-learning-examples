@@ -38,3 +38,20 @@ print(array5)
 array6 = array1[-2:]
 print(array6)
 
+array7 = array1[:]
+print(array7)
+
+array1d = np.arange(start=1, stop=10)
+array2d = array1d.reshape(3, 3)
+print('array2d:\n', array2d)
+
+print('array2d[0:2, 0:2]\n', array2d[0:2, 0:2])
+print('array2d[1:3, 0:3]\n', array2d[1:3, 0:3])
+print('array2d[1:3, :]\n', array2d[1:3, :])
+print('array2d[:, :]\n', array2d[:, :])
+print('array2d[:2, 1:] \n', array2d[:2, 1:])
+print('array2d[:2, 0]\n', array2d[:2,])
+
+print(array2d[0])
+print(array2d[1])
+print('array2d[0] shape:', array2d[0].shape, 'array2d[1] shape:', array2d[1].shape)
