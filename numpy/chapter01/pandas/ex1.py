@@ -23,3 +23,9 @@ print(type(titanic_pclass))
 
 print(titanic_pclass.head())
 
+print('titanic_df 데이터 건수: ', titanic_df.shape[0])
+print('기본 설정인 dropna=True로 value_counts()')
+
+# value_counts()는 디폴트로 dropna=True이므로 value_counts(dropna=True)와 동일
+print(titanic_df['Embarked'].value_counts())
+print(titanic_df['Embarked'].value_counts(dropna=False))
