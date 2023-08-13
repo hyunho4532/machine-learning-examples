@@ -43,4 +43,3 @@ print(list3)
 dict3 = df_dict.to_dict('list')
 print('\n df_dict.to_dict() 타입: ', type(dict3))
 print(dict3)
-
