@@ -16,3 +16,4 @@ B = np.array( [[1, 2], [3, 4], [5, 6]])
 
 transpose_matB = np.transpose(B)
 print('B의 전치 행렬:\n', transpose_matB)
+
